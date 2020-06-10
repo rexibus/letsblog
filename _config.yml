@@ -37,12 +37,13 @@ plugins:
   - jekyll-include-cache
 
 defaults:
-  -
-    scope:
+  # _posts
+  - scope:
       path: ""
       type: "posts"
     values:
-        layout: "post"
+      read_time: true
+      layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
