@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  rexibus
 
 # Build settings
-theme: minima
+# theme: minima
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
